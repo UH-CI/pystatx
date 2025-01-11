@@ -101,7 +101,7 @@ def _stx_timestamp(struct_statx_timestamp):
         struct_statx_timestamp.tv_nsec * 1e-9
 
 
-class _Statx(object):
+class _Statx():
     """statx system call wrapper class."""
 
     # from kernel-sources include/linux/fcntl.h
